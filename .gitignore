@@ -1,0 +1,15 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/Editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore local Kubernetes and Kind config
+.kube/
+.kind/
+
+# Ignore temporary build files
+*.log

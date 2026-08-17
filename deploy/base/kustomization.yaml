@@ -3,3 +3,8 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
+
+images:
+  - name: devsecops-demo
+    newName: ghcr.io/sairajg8/devsecops-gitops-supply-chain-project/devsecops-demo
+    newTag: latest
